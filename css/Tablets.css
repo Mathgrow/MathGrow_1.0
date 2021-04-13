@@ -1,0 +1,232 @@
+@media(max-width: 952px){
+
+}
+
+@media (max-width: 858px) { 
+
+    
+  
+
+    
+
+    .mockup{
+        width: 600px;
+        height: auto;
+    }
+
+    .title{
+        font-size: 50px;
+    }
+
+    
+    .copy{
+        font-size: 22px;
+    }
+
+    .cta{
+        padding: 15px 22px;
+    }
+
+    .container-cards{
+        justify-content: space-evenly;
+    }
+
+    .services .card{
+        width: 45%;
+    }
+
+    .background{
+        width: 52%;
+    }
+
+    .card{
+        width: 42%;
+    }
+
+    .testimony-container{
+        justify-content: space-evenly;
+    }
+
+    .testimony__card{
+        width: 45%;
+    }
+
+    .check__item{
+        width: 45%;
+        margin-bottom: 35px;
+    }
+
+    .newsletter{
+        width: 80%;
+    }
+
+    .download{
+        width: 100%;
+    }
+
+    .download__app{
+        justify-content: space-between;
+    }
+
+    .download__item{
+        width: 45%;
+    }
+
+    .get-email{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .socialmedia__icon{
+        font-size: 18px;
+    }
+
+    .socialmedia__legend{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width:700px){
+    main .container,
+    footer .container{
+        padding: 60px 0;
+    }
+   
+
+    .nav__container{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        height: 122px;
+        
+    }
+
+    .nav__hero{
+        height: auto;
+    }
+
+    .logo{
+        display: block;
+        padding: 15px 0 ;
+        text-align: center;
+        height: 130px;
+    }
+
+#btn-menu{
+    margin-left: 200px;
+}
+
+.logo__name{
+    margin-top: -5px;
+}
+
+
+
+    .links{     
+        width: 70%;
+    }
+    .links .menu{
+       margin-top: 32px;
+    }
+    .links ul{
+        flex-direction: column;
+    }
+    
+ 
+    .link{
+        padding: 7px 10px;
+    }
+
+    .hero__main{
+        flex-direction: column-reverse;
+        justify-content: flex-end;
+        min-height: 70px;
+        height: auto;
+        padding: 30px 0;
+    }
+
+    .hero__main iframe{
+        display: cover;
+    }
+    .hero__textos{
+        width: 100%;
+        text-align: center;
+    }
+.container-primary-main{
+    display: block;
+}
+.container-primary-main .img-primary-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    .mockup{
+        width: 60%;
+        margin-bottom: 20px;
+    }
+
+    .title{
+        font-size: 35px;
+    }
+
+    .copy{
+        font-size: 20px;
+    }
+
+    .subtitle{
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .copy__section{
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .services .card{
+        width: 80%;
+    }
+
+    .container-bg{
+        justify-content: space-evenly;
+    }
+
+    .card{
+        margin-bottom: 40px;
+        width: 65%;
+    }
+
+    .card__title{
+        font-size: 35px;
+    }
+
+    .card__button{
+        width: 100%;
+    }
+
+    .background{
+        width: 65%;
+        margin-bottom: 40px;
+    }
+
+    .background__copy{
+        display: none;
+    }
+
+    .testimony__card{
+        width: 65%;
+    }
+
+    .testimony__name{
+        font-size: 20px;
+    }
+
+    .container--modifier{
+        width: 80%;
+    }
+
+    .item__contact{
+        width: 100%;
+        padding: 30px 0;
+    }
+}

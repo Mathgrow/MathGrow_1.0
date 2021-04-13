@@ -1,0 +1,23 @@
+@media (min-width: 1024px) {
+
+  .links .menu{   
+      visibility: visible;    
+      z-index: 99999999999;
+     
+  
+  }
+  .links {
+      display: flex;
+      flex-direction: row;
+
+      width: 50%;
+  }
+ 
+
+ 
+ 
+}
+ @media (min-width: 1200px) { 
+
+    
+ }
