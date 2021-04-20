@@ -5,6 +5,8 @@
 @main-color: #fff;
 @icon-color: #95e1d3;
 
+
+
 :root{
     --gold1:#F4BD76;
     --gold2:#F6CD8F;
@@ -15,6 +17,7 @@
     --shadow: 0 8px 8px;
     --color_shadow: #00000033;
 }
+
 
 *{
     margin: 0;
@@ -668,13 +671,21 @@ color: var(--gold1);
 }
 
 .juego__title{
-
+ text-align: center;
+ font-size: 28px;
+ margin-top: 25px;
 }
 
 
 .testimony__info{
     width: 70%;
 }
+
+/* begin quiz */
+
+
+
+/* end quiz */
 
 
 /* check */
