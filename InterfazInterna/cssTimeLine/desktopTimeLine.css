@@ -1,0 +1,49 @@
+@media (min-width: 1150px){
+    
+    .container__content--card{
+        width: 40%;
+        margin-left: 30%;
+        margin-right: 30%;
+    }
+
+   
+     .reloj__container--span{
+       
+      height: 260px;
+       margin-left: 47%;
+       left: 25px;
+     }
+
+     .reloj__container--span2{
+         left: 26px;
+     }
+
+     .reloj__container--span3 {
+         left: 26px;
+     }
+}
+
+@media(min-width: 1850px){
+
+     .reloj__container--span {
+         left: 37px;
+         
+     }
+
+   .reloj__container--span2 {
+    left: 45px;
+   }
+
+   .reloj__container--span3 {
+    left: 45px;
+   }
+
+}
+
+@media (min-width: 1900px){
+
+
+    .reloj__container--span {
+        height: 266px;
+    }
+}

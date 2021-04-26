@@ -32,24 +32,11 @@ body{
     
 }
 
-.container{
-    width: 90%;
-    max-width: 1200px;
-    margin: 0 auto;
-    overflow: hidden;
-    padding:  0;
-    height: auto;
-}
-
-
-
 .hero{
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(to right, hsla(0, 0%, 66%, 0.664), hsla(0, 0%, 44%, 0.664)), url('../imgs/pexels-andrey-grushnikov-707676.jpg');
-    background-size: cover;
-    
+    height: 126px;
 }
+
+
 
 .header-icons-container .icons a{
     width: 22px;
@@ -181,7 +168,7 @@ body{
     z-index: 999999;
     font-size: 18px;
     color: white;
-    top: -35px;
+    top: -2px;
    
 }
 .container-primary-main{
@@ -204,11 +191,9 @@ body{
   
   .icon-menu{
     font-size: 1.4em;
-     border: 2px solid #000;
+    border: 2px solid #000;
     display: block;
     padding: 8px 15px;
-    
-   
     color: white;
     border-radius: 15px;
     background: #051937;
@@ -238,7 +223,7 @@ body{
 }
 
 .hero__main{
-    height: 100%;
+   position: absolute;
     margin-top: 50px;
     align-items: center;
     padding:0;
@@ -298,83 +283,126 @@ body{
 
 /* main */
 
-
-.main__title{
-    display: flex;
-    justify-content: center;
-    margin: 35px 35px;
-    color: white;
+.container__content img{
+    width: 100%;
+    height: 451px;
+    object-fit: cover;
 }
 
-.container-cards{
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+.container__content--card {
+    width: 40%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    
-}
-
-.container__main--card{
-    display: flex;
-    justify-content: center;
-   
-}
-.card__main{
-    width: 60%;
-   min-width: 30%;
-    padding: 30px 0;
-    overflow: hidden;
-    background-image: linear-gradient(to right top, #051937, #09142d, #0a0f23, #06071a, #00000f);
-    border-radius: 10px;
-    display:inline-block;
+    background-color: #080b1e;
+    padding: 5px ;
+    color: white;  
     position: relative;
-    text-align: right;
-    margin-bottom: 60px;
-    box-shadow: 0 0 6px var(--color_shadow);
-    padding-bottom: 0;
-  
-    
+    bottom: 350px;
+    margin-left: 30%;
+    margin-right: 30%; 
+    box-shadow:  20px 20px 60px #bebebe,
+             -20px -20px 60px #ffffff;
+    border-radius: 40px;
 }
 
-.container__img{
-    display: flex;
-    justify-content: center;
-}
-.card__img{
-    width: 100%;
-    margin-right: 0px;
-    margin-left: 0px;
-    height: 200px;
-    object-fit: cover;
-    margin-top: 28px;
-    filter: grayscale(30%);
-}
-
-.card__text{
-    width: 90%;
-    margin:0 auto;
-    color: white;
-    text-align: center;
-}
-.card__title{
-    color: white;
-    text-align: center;
+.container__content--card h1{
+    color: gold;
     margin-bottom: 10px;
 }
 
-.button__container--a{
-    color: #0a0f23;
-    position: absolute;
-    bottom:4em;  
-    background:linear-gradient( #6fff95, #61f685, #52ed74, #42e463, #2fdb51, #31db52, #34db54, #36db55, #4be469, #5eed7c, #6ff68f, #80ffa1);;
-    border-radius:1.5em;
-    text-transform:uppercase;
-    padding:1em 1.5em;
-    font-family: 'Roboto', sans-serif;
+.container__content--card p{
+    text-align: justify;
+    padding: 7px;
+}
+
+.container__content--card-button{
+    margin-top: 20px;
+    background-color: #2fdb51;
     text-decoration: none;
+    padding: 6px;
+    padding-left: 30%;
+    padding-right: 30%;
+    border-radius: 20px;
     font-weight: 700;
+    color: #080b1e;
+}
+
+.container__content{
+  height: 455px;
+
+}
+
+.reloj__container--span {
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    
+    height: 260px;
+    width: 7%;
+    margin-left: 46%;
+    margin-right: 42%;
+    bottom: 190px;
     
 }
+
+.reloj {
+    position: relative;
+    width: 100px;
+   
+    border-radius: 50px;
+    right: 15px;
+    background-color: white;
+    bottom: -45px;
+}
+
+
+.reloj__container--span2 {
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    
+    height: 260px;
+    width: 7%;
+    margin-left: 46%;
+    margin-right: 42%;
+    top: 900px;
+    
+}
+
+.reloj2 {
+    position: relative;
+    width: 100px;
+   
+    border-radius: 50px;
+    right: 15px;
+    background-color: white;
+    bottom: -45px;
+}
+
+.reloj__container--span3 {
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    
+    height: 260px;
+    width: 7%;
+    margin-left: 46%;
+    margin-right: 42%;
+    top: 1350px;
+    
+}
+
+.reloj3 {
+    position: relative;
+    width: 100px;
+   
+    border-radius: 50px;
+    right: 15px;
+    background-color: white;
+    bottom: -45px;
+}
+
+
 
 /* begin quiz */
 
@@ -642,11 +670,27 @@ body{
 
 @media screen and (max-width:550px){
    
-   .hero{
-       min-height: 800px;
-   }
- 
+    .reloj{
+       right: 25px; 
+    }
+    .reloj__container--span{
+       width: 50px;
+      height: 260px;
+    }
 
+    .hero{
+        height: 126px;
+    }
+    
+ .container__content--card{
+     width: 60%;
+     margin-left: 20%;
+     margin-right: 20%;
+     
+ }
+.container__content--card-button{
+    margin-bottom: 9px;
+}
     .mockup{
         width: 80%;
         margin-bottom: 15px;
@@ -752,7 +796,23 @@ body{
    margin: 15px auto;
    
  }
+ .reloj2{
+    right: 25px; 
+ }
+ .reloj__container--span2{
+    width: 50px;
+   height: 210px;
+   margin-top: 36px;
+ }
 
+ .reloj3{
+    right: 26px; 
+ }
+ .reloj__container--span3{
+    width: 50px;
+   height: 210px;
+   margin-top: 42px;
+ }
  
 }
 @media screen and (min-width: 550px){
@@ -768,7 +828,40 @@ body{
 
   }
 
+  .container__content--card{
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 20%;
+    
+}
+
+.reloj{
+    right: 25px; 
+ }
+ .reloj__container--span{
+    width: 50px;
+   height: 260px;
+ }
+
  
+.reloj2{
+    right: 25px; 
+ }
+ .reloj__container--span2{
+    width: 50px;
+   height: 210px;
+   margin-top: 36px;
+ }
+
+ 
+.reloj3{
+    right: 25px; 
+ }
+ .reloj__container--span3{
+    width: 50px;
+   height: 210px;
+   margin-top: 42px;
+ }
 
 }
 
@@ -778,6 +871,11 @@ body{
         width: 10px;
     }
 }
+
+
+
+
+
 
 
 

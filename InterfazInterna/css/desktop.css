@@ -49,6 +49,11 @@
         width: 500px;
         height: 250px;
     }
-   
+    .container__content--card-button{
+      
+        margin-left: 100px;
+        height: 30px;
+    }
     
 }
+
