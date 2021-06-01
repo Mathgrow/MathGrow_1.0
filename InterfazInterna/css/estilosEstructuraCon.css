@@ -32,14 +32,6 @@ body{
     
 }
 
-.container{
-    width: 90%;
-    max-width: 1200px;
-    margin: 0 auto;
-    overflow: hidden;
-    padding:  0;
-    height: auto;
-}
 
 
 
@@ -136,6 +128,7 @@ body{
     justify-content: space-between;
     height: inherit;
     padding: 0;
+    height: 100px;
 }
 .logo{
     display: grid;
@@ -155,7 +148,7 @@ body{
 .img-logo{
     width: 75px;
     margin-left: 15px;
-   
+    
 }
 
 .link{
@@ -209,9 +202,7 @@ body{
     font-size: 1.4em;
      border: 2px solid #000;
     display: block;
-    padding: 8px 15px;
-    
-   
+    padding: 8px 15px; 
     color: white;
     border-radius: 15px;
     background: #051937;
@@ -223,7 +214,7 @@ body{
     position: absolute;
     top: 126px;
     left: 0;
-  background: #0a0f23;
+    background: #0a0f23;
     width: 100%;
     list-style: none;
     padding: 0px;
@@ -264,6 +255,7 @@ body{
     font-weight: 300;
     color: #fff;
     text-shadow: 1px 1px 1px black;
+    margin-left: 30px;
 }
 
 .title--active{
@@ -282,7 +274,7 @@ body{
 .copy__active{
     font-weight: 700;
     color: #09142d;
-
+    margin-left: 30px;
 }
 
 .cta{
@@ -950,9 +942,24 @@ color: var(--gold1);
    .hero{
        min-height: 800px;
    }
- 
+   
+   
+.hero__textos--p {
+    width: 70%;
+    margin-right: 15%;
+    margin-left: 15%;
+}
+.desarrollos__content--section1-title{
+    margin-left: -5%;
+    margin-right: 50%;
+}
+.desarrollos__content--section1-p{
+    margin-left: 20%;
+    margin-right: 35%;
+    
+}
 
-    .mockup{
+.mockup{
         width: 80%;
         margin-bottom: 15px;
     }
@@ -1012,13 +1019,11 @@ color: var(--gold1);
      }
 
     .hero, main, footer{
-       width: 110%;
+       width: 105%;
        overflow-x: hidden;
   }
  
-   .logo__name{
-        display: none;
-   }
+   
  
 
  .desarrollos__content--section2 .img-desarrollos{
@@ -1044,8 +1049,6 @@ color: var(--gold1);
    max-width: 430px;
    margin-right: 45px;
    
-  
-
 }
 .desarrollos__content--section1-title h1{
    text-align: center;
@@ -1057,13 +1060,12 @@ color: var(--gold1);
    margin: 15px auto;
    
  }
-
  
 }
 @media screen and (min-width: 550px){
 
     .hero, main, footer{
-        width: 110%;
+        width: 100%;
         overflow-x: hidden;
    }
    .principal-menu{
@@ -1073,9 +1075,28 @@ color: var(--gold1);
 
   }
 
- 
+  
+.hero__textos--p {
+    width: 70%;
+    margin-right: 15%;
+    margin-left: 15%;
+}
+.desarrollos__content--section1-title{
+    margin-left: 20%;
+    margin-right: 35%;
+}
+.desarrollos__content--section1-p{
+    margin-left: 20%;
+    margin-right: 35%;
+    
+}
+.carousel__container {
+    margin-left: 100px;
+}
 
 }
+
+
 
 
 

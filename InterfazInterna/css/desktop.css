@@ -40,6 +40,9 @@
         justify-content: center;
         align-items: center;
     }
+    .copy__active{
+        margin-left: 50px;
+    }
 }
 
 @media (min-width: 1790px){

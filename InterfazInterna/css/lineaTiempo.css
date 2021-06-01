@@ -131,8 +131,7 @@ body{
     justify-content: center;
     font-size: 28px;
     margin-left: 15px;
-   
-    
+      
 }
 
 .img-logo{
@@ -343,7 +342,7 @@ body{
     width: 7%;
     margin-left: 46%;
     margin-right: 42%;
-    bottom: 190px;
+    top: 482px;
     
 }
 
@@ -672,10 +671,12 @@ body{
    
     .reloj{
        right: 25px; 
+       bottom: -5px;
     }
     .reloj__container--span{
        width: 50px;
-      height: 260px;
+      height: 210px;
+      margin-top: 60px;
     }
 
     .hero{
@@ -683,9 +684,10 @@ body{
     }
     
  .container__content--card{
-     width: 60%;
-     margin-left: 20%;
+     width: 80%;
+     margin-left: 10%;
      margin-right: 20%;
+     height: 310px;
      
  }
 .container__content--card-button{
@@ -832,7 +834,7 @@ body{
     width: 50%;
     margin-left: 25%;
     margin-right: 20%;
-    
+    height: 270px;
 }
 
 .reloj{
@@ -840,7 +842,8 @@ body{
  }
  .reloj__container--span{
     width: 50px;
-   height: 260px;
+   height: 190px;
+   margin-top: 20px;
  }
 
  
@@ -849,8 +852,8 @@ body{
  }
  .reloj__container--span2{
     width: 50px;
-   height: 210px;
-   margin-top: 36px;
+   height: 250px;
+   margin-top: 56px;
  }
 
  
@@ -860,7 +863,12 @@ body{
  .reloj__container--span3{
     width: 50px;
    height: 210px;
-   margin-top: 42px;
+   margin-top: 62px;
+ }
+
+ .container__content--card { 
+    width: 50%;
+    height: 270px;
  }
 
 }
